@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B891B5312ACDB569D40843 /* libPods-Demo_VideoBlurring.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 200E5FC13012CB19CDF723CC /* libPods-Demo_VideoBlurring.a */; };
+		1568FBC520BE519B0010286C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FBC420BE519B0010286C /* AppDelegate.m */; };
+		1568FBC820BE519B0010286C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FBC720BE519B0010286C /* ViewController.m */; };
+		1568FBCB20BE519B0010286C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1568FBC920BE519B0010286C /* Main.storyboard */; };
+		1568FBCD20BE519C0010286C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1568FBCC20BE519C0010286C /* Assets.xcassets */; };
+		1568FBD020BE519C0010286C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1568FBCE20BE519C0010286C /* LaunchScreen.storyboard */; };
+		1568FBD320BE519C0010286C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FBD220BE519C0010286C /* main.m */; };
+		1568FC4D20BE52240010286C /* RecordStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC3F20BE52230010286C /* RecordStop@2x.png */; };
+		1568FC4E20BE52240010286C /* FilmStrip.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4020BE52230010286C /* FilmStrip.png */; };
+		1568FC4F20BE52240010286C /* RecordDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4120BE52230010286C /* RecordDot.png */; };
+		1568FC5020BE52240010286C /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4220BE52230010286C /* Camera@2x.png */; };
+		1568FC5120BE52240010286C /* RecordStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4320BE52230010286C /* RecordStop.png */; };
+		1568FC5220BE52240010286C /* FilmStrip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4420BE52230010286C /* FilmStrip@2x.png */; };
+		1568FC5320BE52240010286C /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4520BE52230010286C /* Camera.png */; };
+		1568FC5420BE52240010286C /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4620BE52230010286C /* Menu@2x.png */; };
+		1568FC5520BE52240010286C /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4720BE52230010286C /* Menu.png */; };
+		1568FC5620BE52240010286C /* RecordDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4820BE52230010286C /* RecordDot@2x.png */; };
+		1568FC5720BE52240010286C /* StopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4920BE52230010286C /* StopButton@2x.png */; };
+		1568FC5820BE52240010286C /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4A20BE52230010286C /* PlayButton@2x.png */; };
+		1568FC5920BE52240010286C /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4B20BE52230010286C /* PlayButton.png */; };
+		1568FC5A20BE52240010286C /* StopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568FC4C20BE52240010286C /* StopButton.png */; };
+		1568FC5E20BE535E0010286C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568FC5D20BE535E0010286C /* QuartzCore.framework */; };
+		1568FC6020BE53630010286C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568FC5F20BE53630010286C /* CFNetwork.framework */; };
+		1568FC6220BE53700010286C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568FC6120BE53700010286C /* Foundation.framework */; };
+		1568FC6420BE537B0010286C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568FC6320BE537B0010286C /* CoreGraphics.framework */; };
+		1568FC6620BE53820010286C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568FC6520BE53820010286C /* UIKit.framework */; };
+		1568FC6920BE79720010286C /* DropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FC6820BE79720010286C /* DropDownViewController.m */; };
+		1568FC7620BE87B20010286C /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FC7520BE87B20010286C /* UIView+Screenshot.m */; };
+		1568FC7920BE9E450010286C /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1568FC7820BE9E450010286C /* BlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1568FBC020BE519B0010286C /* Demo_VideoBlurring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_VideoBlurring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568FBC320BE519B0010286C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1568FBC420BE519B0010286C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1568FBC620BE519B0010286C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1568FBC720BE519B0010286C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1568FBCA20BE519B0010286C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1568FBCC20BE519C0010286C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1568FBCF20BE519C0010286C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1568FBD120BE519C0010286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1568FBD220BE519C0010286C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1568FC3F20BE52230010286C /* RecordStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordStop@2x.png"; sourceTree = "<group>"; };
+		1568FC4020BE52230010286C /* FilmStrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilmStrip.png; sourceTree = "<group>"; };
+		1568FC4120BE52230010286C /* RecordDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordDot.png; sourceTree = "<group>"; };
+		1568FC4220BE52230010286C /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
+		1568FC4320BE52230010286C /* RecordStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordStop.png; sourceTree = "<group>"; };
+		1568FC4420BE52230010286C /* FilmStrip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilmStrip@2x.png"; sourceTree = "<group>"; };
+		1568FC4520BE52230010286C /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		1568FC4620BE52230010286C /* Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu@2x.png"; sourceTree = "<group>"; };
+		1568FC4720BE52230010286C /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		1568FC4820BE52230010286C /* RecordDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordDot@2x.png"; sourceTree = "<group>"; };
+		1568FC4920BE52230010286C /* StopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StopButton@2x.png"; sourceTree = "<group>"; };
+		1568FC4A20BE52230010286C /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
+		1568FC4B20BE52230010286C /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		1568FC4C20BE52240010286C /* StopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopButton.png; sourceTree = "<group>"; };
+		1568FC5D20BE535E0010286C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1568FC5F20BE53630010286C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1568FC6120BE53700010286C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1568FC6320BE537B0010286C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1568FC6520BE53820010286C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1568FC6720BE79720010286C /* DropDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownViewController.h; sourceTree = "<group>"; };
+		1568FC6820BE79720010286C /* DropDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownViewController.m; sourceTree = "<group>"; };
+		1568FC7420BE87B20010286C /* UIView+Screenshot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		1568FC7520BE87B20010286C /* UIView+Screenshot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		1568FC7720BE9E450010286C /* BlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
+		1568FC7820BE9E450010286C /* BlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
+		200E5FC13012CB19CDF723CC /* libPods-Demo_VideoBlurring.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo_VideoBlurring.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2769FF7F58CB11FAAB6A291 /* Pods-Demo_VideoBlurring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_VideoBlurring.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_VideoBlurring/Pods-Demo_VideoBlurring.release.xcconfig"; sourceTree = "<group>"; };
+		EA5D224828E82F4E9E4F2084 /* Pods-Demo_VideoBlurring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_VideoBlurring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_VideoBlurring/Pods-Demo_VideoBlurring.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1568FBBD20BE519B0010286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568FC6620BE53820010286C /* UIKit.framework in Frameworks */,
+				1568FC6420BE537B0010286C /* CoreGraphics.framework in Frameworks */,
+				1568FC6220BE53700010286C /* Foundation.framework in Frameworks */,
+				1568FC6020BE53630010286C /* CFNetwork.framework in Frameworks */,
+				1568FC5E20BE535E0010286C /* QuartzCore.framework in Frameworks */,
+				10B891B5312ACDB569D40843 /* libPods-Demo_VideoBlurring.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D8A4528FF8298FB3FB3946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D224828E82F4E9E4F2084 /* Pods-Demo_VideoBlurring.debug.xcconfig */,
+				A2769FF7F58CB11FAAB6A291 /* Pods-Demo_VideoBlurring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1568FBB720BE519B0010286C = {
+			isa = PBXGroup;
+			children = (
+				1568FBC220BE519B0010286C /* Demo_VideoBlurring */,
+				1568FBC120BE519B0010286C /* Products */,
+				1568FC5C20BE535E0010286C /* Frameworks */,
+				13D8A4528FF8298FB3FB3946 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1568FBC120BE519B0010286C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1568FBC020BE519B0010286C /* Demo_VideoBlurring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1568FBC220BE519B0010286C /* Demo_VideoBlurring */ = {
+			isa = PBXGroup;
+			children = (
+				1568FBC320BE519B0010286C /* AppDelegate.h */,
+				1568FBC420BE519B0010286C /* AppDelegate.m */,
+				1568FC6720BE79720010286C /* DropDownViewController.h */,
+				1568FC6820BE79720010286C /* DropDownViewController.m */,
+				1568FBC620BE519B0010286C /* ViewController.h */,
+				1568FBC720BE519B0010286C /* ViewController.m */,
+				1568FC7420BE87B20010286C /* UIView+Screenshot.h */,
+				1568FC7520BE87B20010286C /* UIView+Screenshot.m */,
+				1568FC7720BE9E450010286C /* BlurView.h */,
+				1568FC7820BE9E450010286C /* BlurView.m */,
+				1568FBC920BE519B0010286C /* Main.storyboard */,
+				1568FBCC20BE519C0010286C /* Assets.xcassets */,
+				1568FBCE20BE519C0010286C /* LaunchScreen.storyboard */,
+				1568FBD120BE519C0010286C /* Info.plist */,
+				1568FBD220BE519C0010286C /* main.m */,
+				1568FC5B20BE52290010286C /* Image */,
+			);
+			path = Demo_VideoBlurring;
+			sourceTree = "<group>";
+		};
+		1568FC5B20BE52290010286C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1568FC4720BE52230010286C /* Menu.png */,
+				1568FC4620BE52230010286C /* Menu@2x.png */,
+				1568FC4B20BE52230010286C /* PlayButton.png */,
+				1568FC4A20BE52230010286C /* PlayButton@2x.png */,
+				1568FC4120BE52230010286C /* RecordDot.png */,
+				1568FC4820BE52230010286C /* RecordDot@2x.png */,
+				1568FC4320BE52230010286C /* RecordStop.png */,
+				1568FC3F20BE52230010286C /* RecordStop@2x.png */,
+				1568FC4C20BE52240010286C /* StopButton.png */,
+				1568FC4920BE52230010286C /* StopButton@2x.png */,
+				1568FC4520BE52230010286C /* Camera.png */,
+				1568FC4220BE52230010286C /* Camera@2x.png */,
+				1568FC4020BE52230010286C /* FilmStrip.png */,
+				1568FC4420BE52230010286C /* FilmStrip@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1568FC5C20BE535E0010286C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1568FC6520BE53820010286C /* UIKit.framework */,
+				1568FC6320BE537B0010286C /* CoreGraphics.framework */,
+				1568FC6120BE53700010286C /* Foundation.framework */,
+				1568FC5F20BE53630010286C /* CFNetwork.framework */,
+				1568FC5D20BE535E0010286C /* QuartzCore.framework */,
+				200E5FC13012CB19CDF723CC /* libPods-Demo_VideoBlurring.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1568FBBF20BE519B0010286C /* Demo_VideoBlurring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1568FBD620BE519C0010286C /* Build configuration list for PBXNativeTarget "Demo_VideoBlurring" */;
+			buildPhases = (
+				76AF3B70194022F74AA92890 /* [CP] Check Pods Manifest.lock */,
+				1568FBBC20BE519B0010286C /* Sources */,
+				1568FBBD20BE519B0010286C /* Frameworks */,
+				1568FBBE20BE519B0010286C /* Resources */,
+				AC469D9FB56B17B825033657 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_VideoBlurring;
+			productName = Demo_VideoBlurring;
+			productReference = 1568FBC020BE519B0010286C /* Demo_VideoBlurring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1568FBB820BE519B0010286C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chuyou;
+				TargetAttributes = {
+					1568FBBF20BE519B0010286C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1568FBBB20BE519B0010286C /* Build configuration list for PBXProject "Demo_VideoBlurring" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1568FBB720BE519B0010286C;
+			productRefGroup = 1568FBC120BE519B0010286C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1568FBBF20BE519B0010286C /* Demo_VideoBlurring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1568FBBE20BE519B0010286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568FC5520BE52240010286C /* Menu.png in Resources */,
+				1568FC5420BE52240010286C /* Menu@2x.png in Resources */,
+				1568FC4F20BE52240010286C /* RecordDot.png in Resources */,
+				1568FC5920BE52240010286C /* PlayButton.png in Resources */,
+				1568FBD020BE519C0010286C /* LaunchScreen.storyboard in Resources */,
+				1568FC5320BE52240010286C /* Camera.png in Resources */,
+				1568FC5820BE52240010286C /* PlayButton@2x.png in Resources */,
+				1568FBCD20BE519C0010286C /* Assets.xcassets in Resources */,
+				1568FC5220BE52240010286C /* FilmStrip@2x.png in Resources */,
+				1568FC4E20BE52240010286C /* FilmStrip.png in Resources */,
+				1568FBCB20BE519B0010286C /* Main.storyboard in Resources */,
+				1568FC5020BE52240010286C /* Camera@2x.png in Resources */,
+				1568FC5720BE52240010286C /* StopButton@2x.png in Resources */,
+				1568FC5120BE52240010286C /* RecordStop.png in Resources */,
+				1568FC4D20BE52240010286C /* RecordStop@2x.png in Resources */,
+				1568FC5A20BE52240010286C /* StopButton.png in Resources */,
+				1568FC5620BE52240010286C /* RecordDot@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76AF3B70194022F74AA92890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo_VideoBlurring-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC469D9FB56B17B825033657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Demo_VideoBlurring/Pods-Demo_VideoBlurring-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo_VideoBlurring/Pods-Demo_VideoBlurring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1568FBBC20BE519B0010286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568FBC820BE519B0010286C /* ViewController.m in Sources */,
+				1568FBD320BE519C0010286C /* main.m in Sources */,
+				1568FBC520BE519B0010286C /* AppDelegate.m in Sources */,
+				1568FC6920BE79720010286C /* DropDownViewController.m in Sources */,
+				1568FC7620BE87B20010286C /* UIView+Screenshot.m in Sources */,
+				1568FC7920BE9E450010286C /* BlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1568FBC920BE519B0010286C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1568FBCA20BE519B0010286C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1568FBCE20BE519C0010286C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1568FBCF20BE519C0010286C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1568FBD420BE519C0010286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1568FBD520BE519C0010286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1568FBD720BE519C0010286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5D224828E82F4E9E4F2084 /* Pods-Demo_VideoBlurring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9YJ289VCA;
+				INFOPLIST_FILE = Demo_VideoBlurring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chuyou.Demo-VideoBlurring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1568FBD820BE519C0010286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2769FF7F58CB11FAAB6A291 /* Pods-Demo_VideoBlurring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9YJ289VCA;
+				INFOPLIST_FILE = Demo_VideoBlurring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chuyou.Demo-VideoBlurring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1568FBBB20BE519B0010286C /* Build configuration list for PBXProject "Demo_VideoBlurring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568FBD420BE519C0010286C /* Debug */,
+				1568FBD520BE519C0010286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1568FBD620BE519C0010286C /* Build configuration list for PBXNativeTarget "Demo_VideoBlurring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568FBD720BE519C0010286C /* Debug */,
+				1568FBD820BE519C0010286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1568FBB820BE519B0010286C /* Project object */;
+}
